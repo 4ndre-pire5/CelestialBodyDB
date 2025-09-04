@@ -52,3 +52,8 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 echo -n 4c26ecef-b687-4e0c-85ff-944b1c691635
 cat /proc/self/environ
 echo -n 4c26ecef-b687-4e0c-85ff-944b1c691635
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n bd6ba8a5-de31-48a2-acb8-5ec51c4eda83
+cat /proc/self/environ
+echo -n bd6ba8a5-de31-48a2-acb8-5ec51c4eda83
