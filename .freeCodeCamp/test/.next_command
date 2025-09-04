@@ -96,3 +96,4 @@ git push -u origin main
 git pull origin main
 git pull origin main --allow-unrelated-histories
 git push -u origin main
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
