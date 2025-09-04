@@ -47,3 +47,8 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+echo -n 4c26ecef-b687-4e0c-85ff-944b1c691635
+cat /proc/self/environ
+echo -n 4c26ecef-b687-4e0c-85ff-944b1c691635
